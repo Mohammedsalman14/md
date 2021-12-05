@@ -1,6 +1,5 @@
-ad=23
-print(12+ad)
-if ad<=25:
-  print("a is greater than 25")
-else:
-  print("25 is greater")
+num=int(input("Enter the integer value:"))
+if num%4==0:
+  return True
+if num%400==0:
+  return True
